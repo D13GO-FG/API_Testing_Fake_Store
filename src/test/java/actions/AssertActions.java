@@ -31,4 +31,8 @@ public class AssertActions {
     public void verifyResponseBody(ArrayList actual, String expected, String description){
         assertTrue(actual.contains(expected), description);
     }
+
+    public void verifyResponseTrue(Response response, String description){
+        assertTrue(response.asString().contains("true"), description);
+    }
 }

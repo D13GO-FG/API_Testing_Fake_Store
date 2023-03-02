@@ -5,4 +5,5 @@ public class APIConstants {
     public final static String createProduct = "/products";
     public final static String getProduct = "/products/{id}";
     public final static String updateProduct = "/products/{id}";
+    public final static String deleteProduct = "/products/{id}";
 }
