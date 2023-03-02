@@ -4,4 +4,5 @@ public class APIConstants {
     public final static String baseUrl = "https://api.escuelajs.co/api/v1";
     public final static String createProduct = "/products";
     public final static String getProduct = "/products/{id}";
+    public final static String updateProduct = "/products/{id}";
 }

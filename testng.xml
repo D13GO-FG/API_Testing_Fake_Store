@@ -11,11 +11,11 @@
             <class name="tests.getProduct"/>
         </classes>
     </test>
-<!--    <test name="TestUpdateProduct">-->
-<!--        <classes>-->
-<!--            <class name="TestAPI.updateProduct"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="TestUpdateProduct">
+        <classes>
+            <class name="tests.updateProduct"/>
+        </classes>
+    </test>
 <!--    <test name="TestDeleteProduct">-->
 <!--        <classes>-->
 <!--            <class name="TestAPI.deleteProduct"/>-->
