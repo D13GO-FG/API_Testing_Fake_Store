@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Added README.md file.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fakeStore/dataObjects/productDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/dataObjects/ProductDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fakeStore/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/endpoints/APIConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fakeStore/payload/RequestPayloads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/payload/RequestPayloads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/actions/APIActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/APIActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/actions/AssertActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/AssertActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Test case: Verify if endpoint to create product works as expected.">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/createProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/createProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/getProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/getProduct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testng.xml">
+    <configuration name="D:/2022/Java Projects/API_Testing_Fake_Store/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Testing_Fake_Store" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="createProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing_Fake_Store" />
       <extension name="coverage">
@@ -65,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testng.xml" />
         <item itemvalue="TestNG.createProduct" />
       </list>
     </recent_temporary>
@@ -92,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677717043691</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test case: Verify if endpoint to create product works as expected.">
+      <created>1677723737055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677723737055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up framework using RestAssured and TestNG." />
     <MESSAGE value="Added README.md file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added README.md file." />
+    <MESSAGE value="Test case: Verify if endpoint to create product works as expected." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case: Verify if endpoint to create product works as expected." />
   </component>
 </project>
