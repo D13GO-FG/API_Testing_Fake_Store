@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Test case: verify updateUser api endpoint and add testngUser.xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/checkEmail.java" afterDir="false" />
+    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Test case: verify checkEmail api endpoint and add testngUser.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fakeStore/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/endpoints/APIConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/actions/AssertActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/AssertActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/updateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/updateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testngUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngUser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/createUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/createUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngProduct.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677958092314</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Test case: verify checkEmail api endpoint and add testngUser.xml">
+      <created>1677960144450</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677960144450</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +230,7 @@
     <MESSAGE value="Test case: verify createUser api endpoint." />
     <MESSAGE value="Test case: verify getUser api endpoint and add testngUser.xml" />
     <MESSAGE value="Test case: verify updateUser api endpoint and add testngUser.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case: verify updateUser api endpoint and add testngUser.xml" />
+    <MESSAGE value="Test case: verify checkEmail api endpoint and add testngUser.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case: verify checkEmail api endpoint and add testngUser.xml" />
   </component>
 </project>

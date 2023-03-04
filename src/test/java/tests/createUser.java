@@ -19,7 +19,6 @@ public class createUser extends BaseTest{
                 .post(APIConstants.createUser);
         assertActions.verifyStatusCode(response);
         assertActions.verifyResponseBody((String) apiActions.getDataFromJsonPath(response, "name"), userDetails.getName(), "Name is wrong");
-        assertActions.verifyResponseBody((String) apiActions.getDataFromJsonPath(response, "name"), userDetails.getName(), "Name is wrong");
         assertActions.verifyResponseBody((String) apiActions.getDataFromJsonPath(response, "email"), userDetails.getEmail(), "Email is wrong");
         assertActions.verifyResponseBody((String) apiActions.getDataFromJsonPath(response, "password"), userDetails.getPassword(), "Password is wrong");
         assertActions.verifyResponseBody((String) apiActions.getDataFromJsonPath(response, "avatar"), userDetails.getAvatar(), "Avatar is wrong");

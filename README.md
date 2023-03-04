@@ -20,3 +20,13 @@ https://fakeapi.platzi.com/en/rest/products
 |  Get a product by Id   | Verify if Get request send back a response with data in JSON format             | GET https://api.escuelajs.co/api/v1/products/{id}                                             |                                 Status code 200                                 |
 | Update a product by Id | Verify if PUT request with the new data change the previous product information | PUT https://api.escuelajs.co/api/v1/products/{id}                                             |            Status code 200<br/>Title changed<br/> Price changed<br/>            |
 | Delete a product by Id | Verify if Delete request remove successfully                                    | DELETE https://api.escuelajs.co/api/v1/products/{id}                                          |          Status code 200<br/>Verify true response with is deleted<br/>          |
+
+### Test Scenario
+- Verify the flow of all user-related methods in an integrated manner.
+
+|     Test Cases      | Test Description                                                                | Method                                                                                              |                               Expected Result                                |
+|:-------------------:|:--------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------:|
+|   Add a new user    | Verify if Post request successfully worked sending back a respond               | POST https://api.escuelajs.co/api/v1/users                                                          | Status code 200<br/>Name added<br/>Email added<br/>password<br/>Avatar added |
+|  Get a user by Id   | Verify if Get request send back a response with data in JSON format             | GET https://api.escuelajs.co/api/v1/users/{id}                                                      |                               Status code 200                                |
+| Update a user by Id | Verify if PUT request with the new data change the previous product information | PUT https://api.escuelajs.co/api/v1/users/{id}                                                      |           Status code 200<br/>Name changed<br/> Email changed<br/>           |
+| Check email is used | Verify if an email is already registered in the API (false to confirmed)        | POST https://api.escuelajs.co/api/v1/users/is-available                                             |              Status code 200<br/>Verify isAvailable: false<br/>              |
