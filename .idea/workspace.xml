@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Changes in pom.xml to run properly in Jenkins.">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Changed README file with description of test cases and added Jenkinsfile.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/dataObjects/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/createUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fakeStore/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/endpoints/APIConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fakeStore/payload/RequestPayloads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/payload/RequestPayloads.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testng.xml">
+  <component name="RunManager" selected="TestNG.createUser">
     <configuration name="D:/2022/Java Projects/API_Testing_Fake_Store/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing_Fake_Store" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -67,8 +69,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Testing_Fake_Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.createUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.createUser" />
         <item itemvalue="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testng.xml" />
         <item itemvalue="TestNG.createProduct" />
       </list>
@@ -132,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677730931007</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed README file with description of test cases and added Jenkinsfile.">
+      <created>1677954067049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677954067049</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +181,7 @@
     <MESSAGE value="Test case: Verify if endpoint to update details of specific product base in ID works as expected." />
     <MESSAGE value="Test case: Verify if endpoint to delete a product base in ID works as expected." />
     <MESSAGE value="Changes in pom.xml to run properly in Jenkins." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in pom.xml to run properly in Jenkins." />
+    <MESSAGE value="Changed README file with description of test cases and added Jenkinsfile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed README file with description of test cases and added Jenkinsfile." />
   </component>
 </project>

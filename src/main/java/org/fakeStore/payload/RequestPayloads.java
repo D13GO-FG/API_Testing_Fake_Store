@@ -1,6 +1,8 @@
 package org.fakeStore.payload;
 
+import com.github.javafaker.Faker;
 import org.fakeStore.dataObjects.ProductDetails;
+import org.fakeStore.dataObjects.UserDetails;
 
 import java.util.List;
 
@@ -20,5 +22,15 @@ public class RequestPayloads {
         productDetails.setTitle("Yoda pijana");
         productDetails.setPrice(550);
         return productDetails;
+    }
+
+    public UserDetails setUserPayload(){
+        Faker faker = new Faker();
+        UserDetails userDetails = new UserDetails();
+        userDetails.setName(faker.name().firstName());
+        userDetails.setEmail(faker.internet().emailAddress());
+        userDetails.setPassword(faker.internet().password());
+        userDetails.setAvatar(faker.avatar().image());
+        return userDetails;
     }
 }
