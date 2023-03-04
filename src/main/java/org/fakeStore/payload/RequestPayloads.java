@@ -33,4 +33,12 @@ public class RequestPayloads {
         userDetails.setAvatar(faker.avatar().image());
         return userDetails;
     }
+
+    public UserDetails setToUpdateUserPayload(){
+        Faker faker = new Faker();
+        UserDetails userDetails = new UserDetails();
+        userDetails.setName(faker.name().firstName());
+        userDetails.setEmail(faker.internet().emailAddress());
+        return userDetails;
+    }
 }

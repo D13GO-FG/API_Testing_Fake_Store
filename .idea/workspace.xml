@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Test case: verify createUser api endpoint.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngUser.xml" afterDir="false" />
+    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Test case: verify getUser api endpoint and add testngUser.xml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/updateUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/createUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/createUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fakeStore/payload/RequestPayloads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/payload/RequestPayloads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngUser.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,11 @@
     "last_opened_file_path": "D:/2022/Java Projects/API_Testing_Fake_Store"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2022\Java Projects\API_Testing_Fake_Store" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testngUser.xml">
     <configuration name="D:/2022/Java Projects/API_Testing_Fake_Store/testngUser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing_Fake_Store" />
@@ -177,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677956322020</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test case: verify getUser api endpoint and add testngUser.xml">
+      <created>1677957028790</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677957028790</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +213,7 @@
     <MESSAGE value="Changes in pom.xml to run properly in Jenkins." />
     <MESSAGE value="Changed README file with description of test cases and added Jenkinsfile." />
     <MESSAGE value="Test case: verify createUser api endpoint." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case: verify createUser api endpoint." />
+    <MESSAGE value="Test case: verify getUser api endpoint and add testngUser.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case: verify getUser api endpoint and add testngUser.xml" />
   </component>
 </project>

@@ -11,4 +11,9 @@
             <class name="tests.getUser"/>
         </classes>
     </test>
+    <test name="Test Update User">
+        <classes>
+            <class name="tests.updateUser"/>
+        </classes>
+    </test>
 </suite>
