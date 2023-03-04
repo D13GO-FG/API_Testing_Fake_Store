@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Test case: Verify if endpoint to delete a product base in ID works as expected.">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Changes in pom.xml to run properly in Jenkins.">
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +33,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testng.xml">
     <configuration name="D:/2022/Java Projects/API_Testing_Fake_Store/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing_Fake_Store" />
@@ -123,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677729469330</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changes in pom.xml to run properly in Jenkins.">
+      <created>1677730931007</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677730931007</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +153,7 @@
     <MESSAGE value="Test case: Verify if endpoint to get details of specific product base in ID works as expected." />
     <MESSAGE value="Test case: Verify if endpoint to update details of specific product base in ID works as expected." />
     <MESSAGE value="Test case: Verify if endpoint to delete a product base in ID works as expected." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case: Verify if endpoint to delete a product base in ID works as expected." />
+    <MESSAGE value="Changes in pom.xml to run properly in Jenkins." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in pom.xml to run properly in Jenkins." />
   </component>
 </project>
