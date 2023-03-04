@@ -16,4 +16,9 @@
             <class name="tests.updateUser"/>
         </classes>
     </test>
+    <test name="Test Check Email is available">
+        <classes>
+            <class name="tests.checkEmail"/>
+        </classes>
+    </test>
 </suite>

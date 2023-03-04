@@ -10,4 +10,5 @@ public class APIConstants {
     public final static String createUser = "/users";
     public final static String getUser = "/users/{id}";
     public final static String updateUser = "/users/{id}";
+    public final static String checkEmail = "/users/is-available";
 }

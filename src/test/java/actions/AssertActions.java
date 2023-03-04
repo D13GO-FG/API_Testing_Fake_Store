@@ -4,8 +4,7 @@ import io.restassured.response.Response;
 
 import java.util.ArrayList;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
 
 public class AssertActions {
     public void verifyStatusCode(Response response) {
@@ -34,5 +33,9 @@ public class AssertActions {
 
     public void verifyResponseTrue(Response response, String description){
         assertTrue(response.asString().contains("true"), description);
+    }
+
+    public void verifyResponseBody(Boolean isAvailable, String description) {
+        assertFalse(isAvailable, description);
     }
 }

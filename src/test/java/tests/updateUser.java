@@ -19,9 +19,15 @@ public class updateUser extends BaseTest{
                 .body(userDetails)
                 .when()
                 .put(APIConstants.updateUser);
+
+        String email = apiActions.getDataFromJsonPath(response, "email");
+
         assertActions.verifyStatusCode(response);
         assertActions.verifyResponseBody((String) apiActions.getDataFromJsonPath(response, "name"), userDetails.getName(), "Name didn't update");
-        assertActions.verifyResponseBody((String) apiActions.getDataFromJsonPath(response, "email"), userDetails.getEmail(), "Email didn't update");
+        assertActions.verifyResponseBody(email, userDetails.getEmail(), "Email didn't update");
+
+        context.getSuite().setAttribute("email", email);
+
         System.out.println(response.body().prettyPeek());
     }
 }
