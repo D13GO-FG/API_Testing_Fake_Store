@@ -38,4 +38,16 @@ public class AssertActions {
     public void verifyResponseBody(Boolean isAvailable, String description) {
         assertFalse(isAvailable, description);
     }
+
+    public void verifyResponseContentType(Response response, String expectedType) {
+        assertEquals(response.getContentType(), expectedType, "Response content type is not " + expectedType);
+    }
+
+    public void verifyResponseBodyValueNotNull(String actual) {
+        assertNotNull(actual, actual + " is null");
+    }
+
+    public void verifyResponseBodyNotEqual(String actual_access_token, String last_access_token, String description) {
+        assertNotEquals(actual_access_token, last_access_token, description);
+    }
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--    If is required create a new user in this test case-->
+<!--    <test name="Test create a new user">-->
+<!--        <classes>-->
+<!--            <class name="tests.createUser"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Test one authentication">
+        <classes>
+            <class name="tests.authentication"/>
+        </classes>
+    </test>
+    <test name="Test get user session">
+        <classes>
+            <class name="tests.getUserWithSession"/>
+        </classes>
+    </test>
+    <test name="Test get new session using refresh token">
+        <classes>
+            <class name="tests.getNewAccessTokenWithRefresh"/>
+        </classes>
+    </test>
+</suite>

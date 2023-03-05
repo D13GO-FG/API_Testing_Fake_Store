@@ -30,3 +30,22 @@ https://fakeapi.platzi.com/en/rest/products
 |  Get a user by Id   | Verify if Get request send back a response with data in JSON format             | GET https://api.escuelajs.co/api/v1/users/{id}                                                      |                               Status code 200                                |
 | Update a user by Id | Verify if PUT request with the new data change the previous product information | PUT https://api.escuelajs.co/api/v1/users/{id}                                                      |           Status code 200<br/>Name changed<br/> Email changed<br/>           |
 | Check email is used | Verify if an email is already registered in the API (false to confirmed)        | POST https://api.escuelajs.co/api/v1/users/is-available                                             |              Status code 200<br/>Verify isAvailable: false<br/>              |
+
+### Test Scenario
+- Verify the flow of all files-related methods in an integrated manner.
+
+|       Test Cases       | Test Description                                                                      | Method                                            |                   Expected Result                    |
+|:----------------------:|:--------------------------------------------------------------------------------------|:--------------------------------------------------|:----------------------------------------------------:|
+|     Upload a file      | Verify if Post request successfully worked and response with the file's original name | POST https://api.escuelajs.co/api/v1/files/upload |    Status code 200<br/>Original name correct<br/>    |
+| Download previous file | Verify if Get request send back a status 200 and check if content type is image png   | GET https://api.escuelajs.co/api/v1/files/{name}  | Status code 200 <br/>Content-Type equal to image/png |
+
+### Test Scenario
+- Verify the flow of all authentication-related methods in an integrated manner.
+
+|                 Test Cases                  | Test Description                                                                           | Method                                                    |                                           Expected Result                                           |
+|:-------------------------------------------:|:-------------------------------------------------------------------------------------------|:----------------------------------------------------------|:---------------------------------------------------------------------------------------------------:|
+|               Authentication                | Verify successful authentication getting access token and refresh token                    | [POST] https://api.escuelajs.co/api/v1/auth/login         |                Status code 200<br/>Access token non null<br/>Refresh token non null                 |
+|            Get user with session            | Verify if email and password are the same that previous credentials used in authentication | [GET] https://api.escuelajs.co/api/v1/auth/profile        | Status code 200 <br/>Email equal to previous credentials<br/>Password equal to previous credentials |
+| Get a new access token with a refresh token | Verify if access token and refresh token are different than previous ones                  | [POST] https://api.escuelajs.co/api/v1/auth/refresh-token |            Status code 200 <br/>Access token is different<br/>Refresh token is different            |
+
+

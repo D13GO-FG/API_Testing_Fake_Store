@@ -11,4 +11,11 @@ public class APIConstants {
     public final static String getUser = "/users/{id}";
     public final static String updateUser = "/users/{id}";
     public final static String checkEmail = "/users/is-available";
+
+    public final static String uploadFile = "files/upload";
+    public final static String downloadFile = "files/{name}";
+
+    public final static String authJWT = "/auth/login";
+    public final static String authSession = "/auth/profile";
+    public final static String authRefresh = "/auth/refresh-token";
 }
