@@ -50,4 +50,12 @@ public class AssertActions {
     public void verifyResponseBodyNotEqual(String actual_access_token, String last_access_token, String description) {
         assertNotEquals(actual_access_token, last_access_token, description);
     }
+
+    public void verifyResponseBodyElementContentString(String actual, String expected, String description){
+        assertTrue(actual.contains(expected), description);
+    }
+
+    public void verifySizeList(int actualAmount, int expectAmount, String description) {
+        assertEquals(actualAmount, expectAmount, description);
+    }
 }

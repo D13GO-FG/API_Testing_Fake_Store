@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Updated README and testng files.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getNewAccessTokenWithRefresh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getUserWithSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/uploadAndDownloadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/digital_monster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngAuth.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngFiles.xml" afterDir="false" />
+    <list default="true" id="e533aa1a-9a4c-4c07-9777-872568a6bb2d" name="Changes" comment="Test case: Upload and download file, verify right functionality of endpoint.&#10;Test case: Authentication&#10;1. Get access token and refresh token&#10;2. Get user with session using previous tokes&#10;3. Get a new access token with a refresh token&#10;Added testngFiles.xml and testngAuth.xml to run in maven.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getFilterByCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getFilterByJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getFilterByPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getFilterByPriceRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getFilterByTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/getPagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngFilters.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fakeStore/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fakeStore/endpoints/APIConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/actions/AssertActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/AssertActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/createUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/createUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +41,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/2022/Java Projects/API_Testing_Fake_Store"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2022/Java Projects/API_Testing_Fake_Store&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2022\Java Projects\API_Testing_Fake_Store" />
       <recent name="D:\2022\Java Projects\API_Testing_Fake_Store\src\test\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testngAuth.xml">
-    <configuration name="D:/2022/Java Projects/API_Testing_Fake_Store/testngAuth.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testngFilters.xml">
+    <configuration name="D:/2022/Java Projects/API_Testing_Fake_Store/testngFilters.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing_Fake_Store" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngAuth.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngFilters.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -66,27 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/2022/Java Projects/API_Testing_Fake_Store/testngFiles.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Testing_Fake_Store" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngFiles.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/2022/Java Projects/API_Testing_Fake_Store/testngUser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Testing_Fake_Store" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngUser.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="authentication" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="getFilterByCategory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing_Fake_Store" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +77,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.authentication" />
+      <option name="MAIN_CLASS_NAME" value="tests.getFilterByCategory" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="getFilterByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Testing_Fake_Store" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +94,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.createUser" />
+      <option name="MAIN_CLASS_NAME" value="tests.getFilterByPrice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getFilterByTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Testing_Fake_Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.getFilterByTitle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getPagination" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Testing_Fake_Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.getPagination" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -122,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testngAuth.xml" />
-        <item itemvalue="TestNG.authentication" />
-        <item itemvalue="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testngFiles.xml" />
-        <item itemvalue="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testngUser.xml" />
-        <item itemvalue="TestNG.createUser" />
+        <item itemvalue="TestNG.D:/2022/Java Projects/API_Testing_Fake_Store/testngFilters.xml" />
+        <item itemvalue="TestNG.getPagination" />
+        <item itemvalue="TestNG.getFilterByPrice" />
+        <item itemvalue="TestNG.getFilterByCategory" />
+        <item itemvalue="TestNG.getFilterByTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677961118502</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Test case: Upload and download file, verify right functionality of endpoint.&#10;Test case: Authentication&#10;1. Get access token and refresh token&#10;2. Get user with session using previous tokes&#10;3. Get a new access token with a refresh token&#10;Added testngFiles.xml and testngAuth.xml to run in maven.">
+      <created>1677984640259</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677984640259</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +281,19 @@
     <MESSAGE value="Test case: verify updateUser api endpoint and add testngUser.xml" />
     <MESSAGE value="Test case: verify checkEmail api endpoint and add testngUser.xml" />
     <MESSAGE value="Updated README and testng files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README and testng files." />
+    <MESSAGE value="Test case: Upload and download file, verify right functionality of endpoint.&#10;Test case: Authentication&#10;1. Get access token and refresh token&#10;2. Get user with session using previous tokes&#10;3. Get a new access token with a refresh token&#10;Added testngFiles.xml and testngAuth.xml to run in maven." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case: Upload and download file, verify right functionality of endpoint.&#10;Test case: Authentication&#10;1. Get access token and refresh token&#10;2. Get user with session using previous tokes&#10;3. Get a new access token with a refresh token&#10;Added testngFiles.xml and testngAuth.xml to run in maven." />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.restassured.path.json.JsonPath" memberName="jsonParser" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="((RestAssuredResponseImpl)response).groovyResponse" custom="io.restassured.internal.RestAssuredResponseImpl" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

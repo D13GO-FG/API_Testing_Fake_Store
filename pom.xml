@@ -37,6 +37,7 @@
                         <suiteXmlFile>testngUser.xml</suiteXmlFile>
                         <suiteXmlFile>testngFiles.xml</suiteXmlFile>
                         <suiteXmlFile>testngAuth.xml</suiteXmlFile>
+                        <suiteXmlFile>testngFilters.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

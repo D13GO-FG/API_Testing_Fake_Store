@@ -18,4 +18,5 @@ public class APIConstants {
     public final static String authJWT = "/auth/login";
     public final static String authSession = "/auth/profile";
     public final static String authRefresh = "/auth/refresh-token";
+
 }

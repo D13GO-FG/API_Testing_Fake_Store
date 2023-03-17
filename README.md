@@ -48,4 +48,16 @@ https://fakeapi.platzi.com/en/rest/products
 |            Get user with session            | Verify if email and password are the same that previous credentials used in authentication | [GET] https://api.escuelajs.co/api/v1/auth/profile        | Status code 200 <br/>Email equal to previous credentials<br/>Password equal to previous credentials |
 | Get a new access token with a refresh token | Verify if access token and refresh token are different than previous ones                  | [POST] https://api.escuelajs.co/api/v1/auth/refresh-token |            Status code 200 <br/>Access token is different<br/>Refresh token is different            |
 
+### Test Scenario
+- Verify the flow of the correct filter to get product in the API
+
+|          Test Cases           | Test Description                                      | Method                                                                                                                |                          Expected Result                           |
+|:-----------------------------:|:------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------:|
+|  Get Pagination of products   | Verify successful pagination base in query parameters | [GET] https://api.escuelajs.co/api/v1/products?offset=0&limit=10                                                      |               Status code 200<br/>Equal size of list               |
+| Get products by word in title | Verify if elements have in the title key word         | [GET] https://api.escuelajs.co/api/v1/products/?title=Generic                                                         | Status code 200 <br/>First product has title with the word generic |
+|     Get products by price     | Verify successful elements appeared                   | [GET] https://api.escuelajs.co/api/v1/products/price=100                                                              |                          Status code 200                           |
+|  Get products by price range  | Verify successful elements appeared                   | [GET] https://api.escuelajs.co/api/v1/products/?price_min=900&price_max=1000                                          |                          Status code 200                           |
+|   Get products by category    | Verify if elements are of a specific category         | [GET] https://api.escuelajs.co/api/v1/products/?categoryId=1                                                          |     Status code 200<br/>First product have to be that category     |
+| Get products by multi filters | Verify if elements are all the filters                | [GET]https://api.escuelajs.co/api/v1/products/?title=Generic&price_min=900&price_max=1000&categoryId=1                |                          Status code 200                           |
+|                               |                                                       | [GET]https://api.escuelajs.co/api/v1/products/?price_min=900&price_max=1000&categoryId=1                              |                          Status code 200                           |
 
